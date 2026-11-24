@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TunerNavigationBlock">
+        <attr name="nbIsActive" format="boolean" />
+        <attr name="nbImage" format="integer" />
+        <attr name="nbText" format="string" />
+        <attr name="nbGroupText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PreferenceChoice">
+        <attr name="title" />
+        <attr name="summary" />
+        <attr name="entries" />
+        <attr name="entryValues" />
+    </declare-styleable>
+    <declare-styleable name="PreferenceNumber">
+        <attr name="title" />
+        <attr name="summary" />
+        <attr name="numberStep" format="integer" />
+        <attr name="numberMin" format="integer" />
+        <attr name="numberMax" format="integer" />
+        <attr name="labelFormat" format="string" />
+    </declare-styleable>
+    <declare-styleable name="PreferenceSwitch">
+        <attr name="title" />
+        <attr name="summary" />
+    </declare-styleable>
+
+    <declare-styleable name="Button">
+        <attr name="text" format="string" />
+        <attr name="variant" format="string" />
+        <attr name="ghost" format="boolean" />
+    </declare-styleable>
+</resources>

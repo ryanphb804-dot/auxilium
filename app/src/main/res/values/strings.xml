@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Auxilium</string>
+
+    <string name="tunings_json">{\"tunings\":[{\"groupName\":\"Chromatic\",\"groupTunings\":[{\"tuningName\":\"Automatic\"}]},{\"groupName\":\"Guitar\",\"groupTunings\":[{\"tuningName\":\"Standard\",\"tuningNotes\":\"E2 A2 D3 G3 B3 E4\"},{\"tuningName\":\"Half-Step Down\",\"tuningNotes\":\"D#2 G#2 C#3 F#3 A#3 D#4\"},{\"tuningName\":\"Drop D\",\"tuningNotes\":\"D2 A2 D3 G3 B3 E4\"},{\"tuningName\":\"Drop C\",\"tuningNotes\":\"C2 G2 C3 F3 A3 D4\"},{\"tuningName\":\"Open D\",\"tuningNotes\":\"D2 A2 D3 F#3 A3 D4\"},{\"tuningName\":\"Open G\",\"tuningNotes\":\"D2 G2 D3 G3 B3 D4\"},{\"tuningName\":\"Open A\",\"tuningNotes\":\"E2 A2 E3 A3 C#4 E4\"},{\"tuningName\":\"Lute\",\"tuningNotes\":\"E2 A2 D3 F#3 B3 E4\"},{\"tuningName\":\"Irish\",\"tuningNotes\":\"D2 A2 D3 G3 A3 D4\"}]},{\"groupName\":\"Bass\",\"groupTunings\":[{\"tuningName\":\"Standard\",\"tuningNotes\":\"E1 A1 D2 G2\"},{\"tuningName\":\"Open D\",\"tuningNotes\":\"D1 A1 D2 G2\"},{\"tuningName\":\"Drop D\",\"tuningNotes\":\"D1 G1 C2 F2\"}]},{\"groupName\":\"Fiddle\",\"groupTunings\":[{\"tuningName\":\"Violin\",\"tuningNotes\":\"G3 D4 A4 E5\"},{\"tuningName\":\"Viola\",\"tuningNotes\":\"C3 G3 D4 A4\"},{\"tuningName\":\"Cello\",\"tuningNotes\":\"C2 G2 D3 A3\"}]}]}</string>
+
+    <string name="tuner_mode_default">Guitar,Standard,E2 A2 D3 G3 B3 E4</string>
+
+    <string name="pref_accidentals_title">Accidentals ( # or b )</string>
+    <string name="pref_accidentals_summary">Choose whether to use sharp or flat notation.</string>
+    <string name="pref_accidentals_default">sharp</string>
+
+    <string name="pref_naming_title">Note naming convention</string>
+    <string name="pref_naming_summary">Choose which note naming convention to use.</string>
+    <string name="pref_naming_default">english</string>
+
+    <string name="pref_calibration_title">Calibrate tuner</string>
+    <string name="pref_calibration_summary">Adjust to calibrate the base frequency of
+the tuner</string>
+    <string name="pref_calibration_label_format">%d Hz</string>
+
+    <string name="pref_sfx_title">Sound effects</string>
+    <string name="pref_sfx_summary">Enable or disable correct tune and app start sounds</string>
+
+    <string name="pref_suppressor_title">Noise cancellation</string>
+    <string name="pref_suppressor_summary">Enable or disable noise cancellation
+for loud environments</string>
+
+    <string name="button_variant_white">btn_white</string>
+    <string name="button_variant_accent">btn_accent</string>
+    <string name="button_variant_danger">btn_danger</string>
+    <string name="button_variant_fade">btn_fade</string>
+
+    <!-- Busy Microphone Dialog strings -->
+    <string name="busy_microphone_dialog_title">No Microphone Access</string>
+    <string name="busy_microphone_dialog_text">Looks like Auxilium can\'t access your microphone. Check if another app is using it, close it then tap \'Try again\'.</string>
+    <string name="busy_microphone_dialog_button_text">Try Again</string>
+
+
+    <!-- Intro Screen -->
+    <string name="intro_title">Welcome!</string>
+    <string name="intro_text">Thanks for using Auxilium! To get started, please grant permission for Microphone Access.</string>
+    <string name="intro_permission_button_text">Grant Microphone Access</string>
+    <string name="intro_permission_denied_msg">"Microphone permissions are needed for the application to work."</string>
+
+
+    <string name="url_about">https://github.com/ffpetrovic/auxilium</string>
+    <string name="url_privacy">https://github.com/ffpetrovic/auxilium/blob/master/PRIVACY.md</string>
+
+</resources>
